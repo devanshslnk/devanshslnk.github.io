@@ -9,6 +9,13 @@ function myMenuFunction(){
   }
 }
 
+function toggleMenuFunction(){
+  var menuBtn = document.getElementById("myNavMenu");
+  if(menuBtn.className==="nav-menu responsive"){
+    menuBtn.className = "nav-menu"
+  }
+}
+
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
 window.onscroll = function() {headerShadow()};
 
@@ -46,7 +53,7 @@ const sr = ScrollReveal({
       origin: 'top',
       distance: '80px',
       duration: 2000,
-      reset: true     
+       
 })
 
 /* -- HOME -- */
@@ -72,7 +79,7 @@ const srLeft = ScrollReveal({
 origin: 'left',
 distance: '80px',
 duration: 2000,
-reset: true
+
 })
 
 srLeft.reveal('.about-info',{delay: 100})
@@ -84,7 +91,7 @@ const srRight = ScrollReveal({
 origin: 'right',
 distance: '80px',
 duration: 2000,
-reset: true
+
 })
 
 srRight.reveal('.skills-box',{delay: 100})
