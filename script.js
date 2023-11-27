@@ -60,6 +60,7 @@ sr.reveal('.featured-image',{delay: 300})
 
 /* -- PROJECT BOX -- */
 sr.reveal('.project-box',{interval: 200})
+sr.reveal('.timeline',{delay:100})
 
 /* -- HEADINGS -- */
 sr.reveal('.top-header',{})
@@ -76,6 +77,7 @@ reset: true
 
 srLeft.reveal('.about-info',{delay: 100})
 srLeft.reveal('.contact-info',{delay: 100})
+srLeft.reveal('.left',{delay:70})
 
 /* -- ABOUT SKILLS & FORM BOX -- */
 const srRight = ScrollReveal({
@@ -87,8 +89,7 @@ reset: true
 
 srRight.reveal('.skills-box',{delay: 100})
 srRight.reveal('.form-control',{delay: 100})
-
-
+srRight.reveal(".right",{delay:70})
 
 /* ----- CHANGE ACTIVE LINK ----- */
 

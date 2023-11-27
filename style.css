@@ -651,7 +651,7 @@ footer{
     }
 }
 
-
+/* Time Line Styling */
 
 
 .timeline {
@@ -660,17 +660,19 @@ footer{
   max-width: 1140px;
   margin: 0 auto;
   padding: 15px 0;
+  
 }
 
 .timeline::after {
   content: '';
   position: absolute;
   width: 2px;
-  background: #006E51;
+  background: var(--first-color);
   top: 0;
   bottom: 0;
   left: 50%;
   margin-left: -1px;
+  z-index: -1;
 }
 
 .timelineContainer {
@@ -694,30 +696,30 @@ footer{
   width: 16px;
   height: 16px;
   top: calc(50% - 8px);
-  right: -8px;
+  right: -10px;
   background: #ffffff;
-  border: 2px solid #006E51;
+  border: 2px solid var(--first-color);
   border-radius: 16px;
   z-index: 1;
 }
 
 .timelineContainer.right::after {
-  left: -8px;
+  left: -10px;
 }
 
 .timelineContainer::before {
   content: '';
   position: absolute;
-  width: 50px;
+  width: 30px;
   height: 2px;
   top: calc(50% - 1px);
-  right: 8px;
-  background: #006E51;
+  right: 10px;
+  background: var(--first-color);
   z-index: 1;
 }
 
 .timelineContainer.right::before {
-  left: 8px;
+  left: 10px;
 }
 
 .timelineContainer .date {
@@ -727,7 +729,7 @@ footer{
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  color: #006E51;
+  color: var(--first-color);
   text-transform: uppercase;
   letter-spacing: 1px;
   z-index: 1;
@@ -749,11 +751,11 @@ footer{
   
   top: calc(50% - 20px);
   border-radius: 0%;
-  border: 2px solid #006E51;
+
   
   text-align: center;
   font-size: 18px;
-  color: #006E51;
+ 
   z-index: 1;
 }
 
@@ -767,7 +769,7 @@ footer{
 
 .timelineContainer .timelinecontent {
   padding: 30px 90px 30px 30px;
-  background: #00B5E7;
+  background: var(--first-color);
   position: relative;
   border-radius: 0 500px 500px 0;
 }
@@ -781,14 +783,14 @@ footer{
   margin: 0 0 10px 0;
   font-size: 18px;
   font-weight: normal;
-  color: #006E51;
+  color:var( --color-white);
 }
 
 .timelineContainer .timelinecontent p {
   margin: 0;
   font-size: 16px;
   line-height: 22px;
-  color: #000000;
+  color:var(--color-white);
 }
 
 @media (max-width: 767.98px) {
