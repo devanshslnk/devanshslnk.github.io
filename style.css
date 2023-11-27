@@ -130,7 +130,7 @@ nav{
 .nav-menu-btn i{
     font-size: 28px;
     cursor: pointer;
-    padding-right:70%;
+ 
 }
 .active-link{
     position: relative;
@@ -585,6 +585,7 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
     .featured-box{
         flex-direction: column;
