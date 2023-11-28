@@ -27,12 +27,14 @@
 }
 
 /* ----- SMOOTH SCROLL ----- */
-html{
+
+html,body{
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
 /* ----- CHANGE THE SCROLL BAR DESIGN ----- */
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
     width: 10px;
     border-radius: 25px;
 }
@@ -45,7 +47,7 @@ html{
 }
 ::-webkit-scrollbar-thumb:hover{
     background: #bbb;
-}
+} */
 
 
 /* ---##-- REUSABLE CSS --##--- */
