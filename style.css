@@ -445,6 +445,10 @@ h3{
 
 
 /* ----- CONTACT BOX ----- */
+
+#contact .row{
+    justify-content: center;
+}
 .contact-info{
     position: relative;
     display: flex;

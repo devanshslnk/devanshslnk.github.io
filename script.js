@@ -72,6 +72,7 @@ sr.reveal('.featured-image',{delay: 300})
 /* -- PROJECT BOX -- */
 sr.reveal('.project-box',{interval: 200})
 sr.reveal('.timeline',{delay:100})
+sr.reveal('.contact-info',{delay: 100})
 
 /* -- HEADINGS -- */
 sr.reveal('.top-header',{})
@@ -87,7 +88,7 @@ duration: 2000,
 })
 
 srLeft.reveal('.about-info',{delay: 100})
-srLeft.reveal('.contact-info',{delay: 100})
+
 srLeft.reveal('.left',{delay:70})
 
 /* -- ABOUT SKILLS & FORM BOX -- */
