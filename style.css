@@ -688,8 +688,7 @@ footer{
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
-  padding: 15px 0;
-  
+  padding: 15px 0; 
 }
 
 .timeline::after {
@@ -765,11 +764,11 @@ footer{
 }
 
 .timelineContainer.left .date {
-  right: -75px;
+  right: -100px;
 }
 
 .timelineContainer.right .date {
-  left: -75px;
+  left: -100px;
 }
 
 .timelineContainer .icon {
@@ -800,16 +799,21 @@ footer{
   padding: 30px 90px 30px 30px;
   background: var(--first-color);
   position: relative;
-  border-radius: 0 500px 500px 0;
+  border-radius: 500px 500px 500px 500px;
 }
+
+.timelineContainer .timelinecontent .companyName{
+    font-weight: 600;
+} 
+
 
 .timelineContainer.right .timelinecontent {
   padding: 30px 30px 30px 90px;
-  border-radius: 500px 0 0 500px;
+  border-radius: 500px 500px 500px 500px;
 }
 
 .timelineContainer .timelinecontent h2 {
-  margin: 0 0 10px 0;
+  /* margin: 0 0 10px 0; */
   font-size: 18px;
   font-weight: normal;
   color:var( --color-white);
