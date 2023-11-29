@@ -16,6 +16,10 @@ function toggleMenuFunction(){
   }
 }
 
+function openPDF(){
+  window.open("./assets/Devansh_Solanki_Resume.pdf")
+}
+
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
 window.onscroll = function() {headerShadow()};
 
