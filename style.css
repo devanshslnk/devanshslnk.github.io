@@ -421,8 +421,8 @@ h3{
 .contact-info:hover.contact-info::after{
     bottom: 0;
 }
-.project-box:hover.project-box>label{
-    justify-content: center;
+.project-box label{
+    text-align: center;
 }
 .project-box:hover.project-box i,
 .project-box:hover.project-box>label,
