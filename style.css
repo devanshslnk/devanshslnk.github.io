@@ -421,6 +421,9 @@ h3{
 .contact-info:hover.contact-info::after{
     bottom: 0;
 }
+.project-box:hover.project-box>label{
+    justify-content: center;
+}
 .project-box:hover.project-box i,
 .project-box:hover.project-box>label,
 .project-box:hover.project-box>iframe,
@@ -859,7 +862,7 @@ footer{
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;   
-    right:7%;
+    right:10%;
     left:auto;
     padding-bottom:2px;
   }
