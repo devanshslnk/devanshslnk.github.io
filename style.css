@@ -184,7 +184,7 @@ nav{
     border-radius: 5px;
 }
 .featured-name{
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 600;
     color: var(--text-color-second);
     margin-block: 20px;
@@ -194,7 +194,7 @@ nav{
     color: var(--text-color-third);
 }
 .featured-text-info{
-    font-size: 15px;
+    font-size: 17px;
     margin-bottom: 30px;
     color: var(--text-color-second);
 }
@@ -211,7 +211,7 @@ nav{
 }
 .social_icons{
     display: flex;
-    margin-top: 5em;
+    margin-top: 3em;
     gap: 30px;
 }
 .icon{
@@ -325,8 +325,8 @@ h3{
     border-radius: 20px;
 }
 .about-info p{
-    text-align: center;
-    font-size: 15px;
+    padding-bottom:10px;
+    font-size: 17px;
     color: #777;
 }
 .about-btn button{
@@ -376,9 +376,9 @@ h3{
     align-items: center;
     flex-direction: column;
     width: 30%;
-    height: 250px;
     background: var(--color-white);
     border-radius: 20px;
+    padding-bottom:20px;
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
 }
@@ -392,6 +392,16 @@ h3{
     font-size: 15px;
     color: #777;
 }
+.project-box.project-box>iframe,
+.project-box.project-box>img
+{
+    width:80%;
+    height:60%;
+    margin:20px 20px 15px 20px;
+    border-radius: 5px;
+    background-color: var(--color-white);
+}
+
 .project-box::after, .contact-info::after{
     content: "";
     position: absolute;
@@ -402,21 +412,28 @@ h3{
     transition: .4s;
     z-index: 1;
 }
+.project-box>.icon{
+    background-color: var(--second-color);
+    margin-top:5px;
+}
+
 .project-box:hover.project-box::after,
 .contact-info:hover.contact-info::after{
     bottom: 0;
 }
 .project-box:hover.project-box i,
-.project-box:hover.project-box>h3,
-.project-box:hover.project-box>label{
+.project-box:hover.project-box>label,
+.project-box:hover.project-box>iframe,
+.project-box:hover.project-box>img
+{
     color: var(--color-white);
     z-index: 2;
 }
 
 .project-box:hover.project-box>.icon{
-  /* /* color: #00B5E7; */
-  /* color: var(--color-white); */
-  background-color: #ccc;
+
+  background-color: var(--color-white);
+
   z-index: 2;
 }
 
@@ -425,6 +442,7 @@ h3{
   /* color: var(--color-white); */
  
 }
+
 
 /* ----- CONTACT BOX ----- */
 .contact-info{
