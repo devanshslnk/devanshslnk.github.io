@@ -661,6 +661,7 @@ footer{
         width: 80%;
     }
 
+
 }
 
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
@@ -678,6 +679,11 @@ footer{
     .input-field{
         width: 100%;
     }
+    .middle-footer{
+        display:none;
+    }
+
+
 }
 
 /* Time Line Styling */
